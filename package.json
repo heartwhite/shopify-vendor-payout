@@ -1,0 +1,41 @@
+{
+  "name": "shopify-udemy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next start",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "@koa/cors": "^3.1.0",
+    "@shopify/app-bridge-react": "^1.26.2",
+    "@shopify/koa-shopify-auth": "^3.1.68",
+    "@shopify/koa-shopify-graphql-proxy": "^4.0.1",
+    "@shopify/polaris": "^5.2.1",
+    "apollo-boost": "^0.4.9",
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "graphql": "^15.3.0",
+    "graphql-tag": "^2.11.0",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.1",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-router": "^9.4.0",
+    "koa-session": "^6.0.0",
+    "next": "^9.5.2",
+    "ngrok": "^3.2.7",
+    "react": "^16.13.1",
+    "react-apollo": "^3.1.5",
+    "react-dom": "^16.13.1",
+    "xlsx": "^0.16.7"
+  }
+}
